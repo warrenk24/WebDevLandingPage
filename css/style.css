@@ -2,20 +2,48 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     font-size: 16px;
+    width: 80%;
+    background-color: grey;
+    
+
+   
 }
+/* Shared styles */
+
+button {
+    padding: 10px 20px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: lightblue;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+img{
+    width: 100%;
+   
+}
+
 
 /* Nav Bar */
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     color: white;
 }
 
 ul{
+    margin-right: 30px;
     display: flex;
     list-style: none;
     gap: 8px;
@@ -26,13 +54,49 @@ ul{
 .logo {
    width: 60%; 
    border-radius: 100%;
+   margin-left: 15px;
+   
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
     color: lightblue;
 }
 
+/* Header */
+
+.main {
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 8px;
+    padding: 40px;
+    
+    
+}
+
+.main-info  {
+    flex-basis: 50%;
+  
+
+}
+
+.imgHolder {
+    flex-basis: 50%;
+    
+    
+}
+
+h1 {
+    color: lightblue;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-img {
+    border-radius: 10px;
+}
