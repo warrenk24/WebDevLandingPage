@@ -1,0 +1,38 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    
+    
+}
+
+.logo {
+   width: 60%; 
+   border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
