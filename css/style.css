@@ -19,6 +19,7 @@ button {
     border-radius: 20px;
 }
 button:hover{
+    cursor: pointer;
     background-color: lightblue;
 }
 
@@ -32,10 +33,13 @@ img{
     border-radius: 10px;
    
 }
-h3 {
+h3,h4{
     color: white
 }
 
+section {
+    margin-bottom: 50px;
+}
 
 /* Nav Bar */
 
@@ -97,7 +101,7 @@ a:hover {
 
 h1 {
     color: lightblue;
-    font-size: 48px;
+    font-size: 62px;
     font-weight: 900;
 }
 
@@ -119,6 +123,7 @@ h1 {
 .info-container{
     display: flex;
     justify-content: center;
+    gap: 16px;
     
     
     
@@ -136,4 +141,46 @@ h1 {
     text-align: center;
 }
 
+/* quote section */
 
+ .quote-section{
+    background-image: url(../images/backgroundimg1.jpg);
+    padding: 100px;
+    background-size: cover;
+    
+    
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-author {
+    text-align: end;
+    margin-right: 10px;
+}
+
+/* call to action section */
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.call-to-action div {
+    align-self: center;
+    
+    
+}
+.call-to-action p {
+ line-height: 1px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    
+   
+}

@@ -8,16 +8,16 @@
     <title>WebLandingPage</title>
   </head>
   <body>
-    <nav>
+    <nav id="home">
       <div class="logo-container">
-        <a href="#"
+        <a href="#home"
           ><img class="logo" src="images/logo.jpg" alt="Route 66 fitness logo"
         /></a>
       </div>
       <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Quotes</a></li>
-        <li><a href="#">Sign up</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+        <li><a href="#signup">Sign up</a></li>
       </ul>
     </nav>
     <section class="main">
@@ -28,7 +28,7 @@
           lifestyle. Route 66 fitness will do just that as we provide custom
           meal plans, classes, and inspiration.
         </p>
-        <button>Sign up</button>
+        <a href="#signup"> <button>Sign up</button></a>
       </div>
       <div class="imgHolder">
         <img
@@ -39,7 +39,7 @@
       </div>
     </section>
 
-    <section class="section-content">
+    <section id="services" class="section-content">
       <h2>Our Personal Services!</h2>
       <div class="info-container">
         <div class="img-container">
@@ -64,16 +64,17 @@
         </div>
       </div>
     </section>
-    <section>
-      <p>quote goes here</p>
-      <p>author</p>
+    <section id="quotes" class="quote-section">
+      <p class="quote">“True enjoyment comes from activity of the mind and exercise of the body; the two are ever united.”</p>
+      <p class="quote-author">– Wilhelm von Humboldt</p>
     </section>
-    <section>
+    <section class="call-to-action">
       <div>
         <h4>Call to action! It's time!</h4>
-        <p>Sign up for our product vy clicking that button right over there!</p>
-        <button>Sign up</button>
+        <p>Sign up for our services by clicking the Sign up button!</p>
       </div>
+        <div id="signup"><button>Sign up</button></div>
+      
     </section>
     <footer><p>Copyright &copy Route 66 Fitness 2022</p></footer>
   </body>
